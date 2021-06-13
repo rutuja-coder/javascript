@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function myFunction(){
+            document.getElementById('demo6').innerHTML='Change with New text'
+        }
+    </script>
+</head>
+<body>
+    <h2>Tranining JavaScript</h2>
+
+    <!-- print a simple name using innerHtml -->
+    <div>
+        <button type="button" onclick="document.getElementById('demo1').innerHTML='Hello Rutuja'">CLick me
+        </button>
+        <p id="demo1">
+        <p>
+    </div>
+
+    <!-- print date using InnerHtml -->
+    <div>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+            Date</button>
+        <p id="demo"></p>
+    </div>
+
+    <!-- Chenge font size using Style not innerHtml -->
+    <div>
+        <p id="demo2">Rutuja Suren patil</p>
+        <button type="button" onclick="document.getElementById('demo2').style.fontSize='35px'">Change Size</button>
+    </div>
+
+    <!-- Content Hide -->
+    <div>
+        <p id="demo4">Computer Engineering</p>
+        <button type="button" onclick="document.getElementById('demo4').style.display='none'">Hide</button>
+    </div>
+
+
+    <!-- example using script tag -->
+    <div>
+        <p id="demo5"></p>
+    </div>
+    <script>
+        document.getElementById('demo5').innerHTML="Hello world"
+    </script>
+
+
+   <!-- script tag in head using function -->
+    <div>
+      <h1>Javascript in head</h1>
+      <p id="demo6">Old data</p>
+      <button type="button" onclick="myFunction()">click</button>
+    </div>
+</body>
+
+</html>
