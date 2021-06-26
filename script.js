@@ -114,4 +114,10 @@ var person={
 
 document.getElementById('object').innerHTML= person.firstName + " " + person.lastName + " " + "Age is:" + person.age
 
+//TypeOf
+
+document.getElementById('type').innerHTML= typeof "" +" " + typeof "rutuja" + " " + typeof 0
+
+
+
 
